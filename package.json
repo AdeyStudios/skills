@@ -1,0 +1,37 @@
+{
+  "name": "@adeystudios/skills",
+  "version": "0.1.0",
+  "description": "Install Adey Studios skills globally for Claude Code and Codex without selection menus.",
+  "type": "module",
+  "bin": {
+    "adey-skills": "bin/install.mjs"
+  },
+  "files": [
+    "bin/",
+    "skills/",
+    "LEARNING.md",
+    "CONTRIBUTING.md"
+  ],
+  "scripts": {
+    "test": "node --test",
+    "prepublishOnly": "npm test"
+  },
+  "engines": {
+    "node": ">=22.20.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AdeyStudios/skills.git"
+  },
+  "homepage": "https://github.com/AdeyStudios/skills#readme",
+  "bugs": {
+    "url": "https://github.com/AdeyStudios/skills/issues"
+  },
+  "author": "Adey Studios",
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  },
+  "keywords": ["agent-skills", "claude-code", "codex", "seo", "onboarding"]
+}

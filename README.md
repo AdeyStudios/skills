@@ -16,7 +16,17 @@ These are initial working drafts, not proven methodologies. They use the open [A
 
 ## Install
 
-With the optional [skills CLI](https://github.com/vercel-labs/skills):
+Install all five globally for Claude Code and Codex, without selection menus:
+
+```sh
+npx -y github:AdeyStudios/skills
+```
+
+Requires Node.js 22.20+ and network access. Start a new agent session afterwards. Repeat this command to refresh the installed skills from the current GitHub collection.
+
+The proposed npm name `@adeystudios/skills` is **not published yet**. Until it is published and verified, use the GitHub command above.
+
+The installer delegates to the existing [skills CLI](https://github.com/vercel-labs/skills), pinned to 1.7.4. You can also use that CLI directly to choose different agents or an installation scope:
 
 ```sh
 npx skills add AdeyStudios/skills
@@ -28,7 +38,7 @@ Choose an individual skill:
 npx skills add AdeyStudios/skills --skill design-review
 ```
 
-You can also copy an individual skill folder into the skills directory supported by your agent. Cloning this repository alone does not install its skills. No custom installer, paid service or particular model is required by these instruction files; research and analytics tasks need the appropriate data or tools.
+You can also copy an individual skill folder into the skills directory supported by your agent. Cloning this repository alone does not install its skills. The shortcut is optional; the skill files require no paid service or particular model. Research and analytics tasks need the appropriate data or tools.
 
 ## Use
 
