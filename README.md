@@ -13,10 +13,11 @@ These are initial working drafts, not proven methodologies. They use the open [A
 | [design-review](skills/design-review/SKILL.md) | Review a screen or journey for clear hierarchy, useful content, consistent interactions and responsive behaviour. |
 | [improve-onboarding](skills/improve-onboarding/SKILL.md) | Help new users reach the product's first useful outcome with less friction. |
 | [growth-economics](skills/growth-economics/SKILL.md) | Assess acquisition, advertising, conversion, retention, CAC and contribution profit together. |
+| [go-to-market](skills/go-to-market/SKILL.md) | Placeholder (work in progress; guidance to be added). |
 
 ## Install
 
-Install all five globally for Claude Code and Codex, without selection menus:
+Install all six globally for Claude Code and Codex, without selection menus:
 
 ```sh
 npx -y github:AdeyStudios/skills
