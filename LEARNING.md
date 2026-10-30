@@ -2,6 +2,8 @@
 
 The collection should improve as we learn. A video, article, named concept, experiment or product observation is input for a discussion, not an automatic new rule.
 
+Follow the shared [Research → Execute → Verify standard](SKILL-FRAMEWORK.md) when turning a useful lesson into a workflow. A skill update that passes a format check is not automatically verified as improving real work.
+
 ## Working together
 
 1. Bring the source or data and identify what caught your attention. A link, timestamp, excerpt or named concept is useful; a full transcript is not required.
