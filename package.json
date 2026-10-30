@@ -10,7 +10,8 @@
     "bin/",
     "skills/",
     "LEARNING.md",
-    "CONTRIBUTING.md"
+    "CONTRIBUTING.md",
+    "SKILL-FRAMEWORK.md"
   ],
   "scripts": {
     "test": "node --test",
@@ -33,5 +34,11 @@
     "access": "public",
     "registry": "https://registry.npmjs.org/"
   },
-  "keywords": ["agent-skills", "claude-code", "codex", "seo", "onboarding"]
+  "keywords": [
+    "agent-skills",
+    "claude-code",
+    "codex",
+    "seo",
+    "onboarding"
+  ]
 }
