@@ -25,6 +25,8 @@ Preserve established typography, colour, components and working interactions unl
 - Keep action placement predictable. Expanding help should not cover neighbouring content or unexpectedly move a primary action while someone is trying to use it. Reserve sensible space or choose another disclosure pattern; do not pin every element simply to eliminate all layout movement.
 - Check contrast, focus visibility, labels, target sizes and content at zoom. Include loading, empty, error and success states when relevant to the problem.
 
+When reviewing progress, success moments, perceived waiting or competing choices, read [references/behavioural-design.md](references/behavioural-design.md). Apply these principles to the user's task; do not add gamification, decoration or delays merely to invoke a psychological effect.
+
 For exports or share images, inspect the generated artifact, not only its HTML preview. Ensure the content fits, labels remain readable at the intended display size, and theme and selected content match the user's choice. Buttons should accurately describe what the destination or clipboard can actually receive.
 
 ## Make the review actionable
