@@ -8,5 +8,7 @@ This repository contains generic, public Agent Skills, not project-specific conf
 - Preserve the user's product, scope and permissions. A review is not permission to change production systems, publish content or spend money.
 - Treat the current contents as editable starting points. Discuss proposed lessons and applicability before incorporating supplied learning material, following LEARNING.md.
 - Keep credentials, personal paths, raw private analytics and customer records out of this public repository.
+- Follow [SKILL-FRAMEWORK.md](SKILL-FRAMEWORK.md): research → execute → verify when creating and running skills. Do not confuse completed work, successful tests and observed real-world impact.
+- Keep `founder-os` a compact routing and prioritisation hub, not a replacement for specialist skills. Never claim placeholders are ready for operational use.
 - Validate edited frontmatter, check local links, and exercise relevant example requests from CONTRIBUTING.md when changes alter behaviour. Report what was actually verified.
 - Keep project context in the project or invocation. Add specialised variants only when real use demonstrates a need.
