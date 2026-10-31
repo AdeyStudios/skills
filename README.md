@@ -76,6 +76,23 @@ Videos, articles, observations and product data can inform revisions. We discuss
 
 For contributions and practical review examples, see [CONTRIBUTING.md](CONTRIBUTING.md). Contributions should preserve cross-agent portability and contain no private customer data or credentials.
 
+## References that have helped in practice
+
+Keep a record of what a source contributed, which skill it can inform and what we adapted. These are sources of inspiration, not required dependencies. Linking a skill does not adopt all its instructions or establish that it caused an improvement.
+
+| Source | Aspect / our skill | What helped and how we used it |
+| --- | --- | --- |
+| [Elya Design: Redesign Existing Projects](https://github.com/elayadesign/redesign-skill) | Interface diagnosis and restructuring → [design-review](skills/design-review/SKILL.md) | The most useful external diagnostic in our October 2026 native redesign: audit weak hierarchy, surfaces, component patterns, interaction states and motion together. We adapted its web-focused advice to native controls; its fixed fonts, CSS values and preference for small edits did not override the product brief. |
+| [Elya Design: AI Design Skills](https://github.com/elayadesign/ai-design-skills) | Purpose, primary action and visual coherence → [design-review](skills/design-review/SKILL.md) | Helped connect the intended action to a coherent visual direction. Its landing-page format was not applied to an in-app learning screen. The companion redesign audit above was more directly useful for that task. |
+| [Owl Listener: Designer Skills](https://github.com/Owl-Listener/designer-skills) | Information density, typography, spacing, hierarchy, platform conventions and feedback → [design-review](skills/design-review/SKILL.md) | Provided focused lenses for individual design decisions. Useful supporting checks, rather than a complete product direction on their own. |
+| [Muomi](https://muomi.vercel.app/) — product reference, not a skill | Mobile interaction and screen structure → [design-review](skills/design-review/SKILL.md) | The strongest concrete reference for the mobile feel in that redesign: a recognisable central task, distinct surfaces and direct controls. We studied the actual mobile flow and translated the principles to a different product rather than copying its hydration UI. |
+| [Supplied onboarding video notes](skills/improve-onboarding/references/learning-notes.md) — learning material, not an external skill | First useful outcome, personalisation and contextual permissions → [improve-onboarding](skills/improve-onboarding/SKILL.md) | Informed the existing workflow after discussion. The original video and benchmark reports were unavailable, so quoted statistics were not adopted as evidence. |
+| [Behavioural design notes](skills/design-review/references/behavioural-design.md) — learning material, not an external skill | Honest progress, meaningful endings, feedback and choices → [design-review](skills/design-review/SKILL.md) and [improve-onboarding](skills/improve-onboarding/SKILL.md) | Informed context-dependent guidance. We rejected invented processing delays and automatic gamification; the notes distinguish supplied claims, reviewed research and our interpretation. |
+
+**Lesson from the native redesign, 31 October 2026:** clarity and useful content do not require a flat, document-like interface. Native components, distinct task surfaces, voice, tactile feedback and purposeful motion can make an experience clearer as well as more engaging. The founder preferred the revised result; that is qualitative feedback on the combined work, not a comparison proving one skill caused it or evidence of improved retention.
+
+**Next skill improvement to evaluate:** teach `design-review` to distinguish a styling correction from an explicitly requested structural redesign, inspect the platform's interaction opportunities, and verify the complete task across keyboard, loading, error, completion and accessibility states. Keep platform-specific advice conditional. This is a recorded proposal; the skill workflow has not yet been rewritten around it. Follow [LEARNING.md](LEARNING.md) and test a native redesign alongside a small web correction before adopting broader rules.
+
 ## Public skill collections for inspiration
 
 Research these on your own terms; they are references, not automatically adopted instructions or endorsements. Check provenance, licensing and whether a practice holds up for your use case before importing it.
