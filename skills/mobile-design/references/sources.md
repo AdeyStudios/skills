@@ -14,3 +14,7 @@ Reviewed 31 October 2026. This is original, conditional guidance informed by a f
 Lessons retained from the redesign: review the whole task rather than typography alone; use platform interaction opportunities where useful; test keyboard and lifecycle states; inspect actual large-text renders; treat voice denial and paging failure as part of the experience. Do not require voice, automatic pagination, coloured topic cards or a particular four-tab arrangement in unrelated products.
 
 The founder's approval supports the direction for that project. Comparative agent testing and downstream product impact remain unestablished. External sources retain their own licences; no external skill installation is required.
+
+## Follow-up feedback, 31 October 2026
+
+The user explicitly endorsed the overall direction, then requested controllable month filters, clearer main-topic settings, a richer interactive learning view, full task content and removal of routine provider branding. Adopted the conditional guidance for reversible filters over the complete dataset, explicit selection/save semantics, evidence-backed interactive views and task-focused copy. These are product judgments to evaluate in context, not requirements to add pills, switches or an evidence explorer to every app. Later native verification belongs in that project's review record; no general conversion effect is claimed.
