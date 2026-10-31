@@ -20,7 +20,9 @@ These are **working drafts**, not proven methodologies. "Placeholder" means ther
 | [go-to-market](skills/go-to-market/SKILL.md) | Future work on positioning, channels and reaching the right customers. | Placeholder |
 | [seo-content-research](skills/seo-content-research/SKILL.md) | Choose useful content opportunities using search intent, existing answers and product fit. | Working draft |
 | [seo-review](skills/seo-review/SKILL.md) | Diagnose discoverability and indexing problems with evidence and prioritised fixes. | Working draft |
-| [design-review](skills/design-review/SKILL.md) | Review a screen or journey for clear hierarchy, useful content, consistent interactions and responsive behaviour. | Working draft |
+| [design-review](skills/design-review/SKILL.md) | Diagnose shared design issues when the platform is mixed or unspecified; choose the depth of the review. | Working draft |
+| [web-design](skills/web-design/SKILL.md) | Design or rethink websites and browser apps, including responsive mobile layouts, semantics, focus and browser behaviour. | Working draft |
+| [mobile-design](skills/mobile-design/SKILL.md) | Design or rethink native iOS/Android experiences, including screen structure, platform controls, input, motion and device states. | Working draft |
 | [improve-onboarding](skills/improve-onboarding/SKILL.md) | Help new users reach the product's first useful outcome with less friction. | Working draft |
 | [growth-economics](skills/growth-economics/SKILL.md) | Assess acquisition, advertising, conversion, retention, CAC and contribution profit together. | Working draft |
 
@@ -34,7 +36,7 @@ See [SKILL-FRAMEWORK.md](SKILL-FRAMEWORK.md) for the creation and execution stan
 
 ## Install
 
-Install all nine globally for Claude Code and Codex, without selection menus:
+Install the entire collection globally for Claude Code and Codex, without selection menus:
 
 ```sh
 npx -y github:AdeyStudios/skills
@@ -64,11 +66,15 @@ After installation, invoke a skill using your agent's supported syntax. For exam
 
 ```text
 $design-review Review this checkout on mobile. Preserve the existing brand.
+$web-design Fix this checkout's small-screen layout and keyboard focus. Keep the existing brand.
+$mobile-design Rethink this native iOS journey around its main task, including keyboard, motion and failure states.
 $seo-content-research Find content opportunities for this product using the attached Search Console export.
 $growth-economics Assess whether this paid acquisition cohort is profitable. Here are spend, conversion and retention data.
 ```
 
 Skills are generic. Supply project context in the request or keep it in that project's own documentation: audience, useful outcome, positioning, constraints and available evidence. They should not assume any particular Adey Studios product or private account.
+
+For design, choose by runtime: **web-design** includes mobile websites and PWAs; **mobile-design** covers native apps, including native cross-platform frameworks. **design-review** remains a standalone shared review for mixed or unspecified contexts. You do not need to run all three or install an external design collection.
 
 ## Improve them as we learn
 
@@ -91,7 +97,7 @@ Keep a record of what a source contributed, which skill it can inform and what w
 
 **Lesson from the native redesign, 31 October 2026:** clarity and useful content do not require a flat, document-like interface. Native components, distinct task surfaces, voice, tactile feedback and purposeful motion can make an experience clearer as well as more engaging. The founder preferred the revised result; that is qualitative feedback on the combined work, not a comparison proving one skill caused it or evidence of improved retention.
 
-**Next skill improvement to evaluate:** teach `design-review` to distinguish a styling correction from an explicitly requested structural redesign, inspect the platform's interaction opportunities, and verify the complete task across keyboard, loading, error, completion and accessibility states. Keep platform-specific advice conditional. This is a recorded proposal; the skill workflow has not yet been rewritten around it. Follow [LEARNING.md](LEARNING.md) and test a native redesign alongside a small web correction before adopting broader rules.
+**Now incorporated as working drafts:** `web-design` and `mobile-design` separate browser and native interaction; `design-review` retains the shared judgment. All distinguish local corrections from authorised restructuring and require task/state verification. Source-specific lessons and limits are recorded in the [web notes](skills/web-design/references/sources.md), [mobile notes](skills/mobile-design/references/sources.md) and [adoption record](LEARNING.md#design-skill-split-31-october-2026). This is not yet a comparative evaluation proving the new skills outperform their predecessors.
 
 ## Public skill collections for inspiration
 
