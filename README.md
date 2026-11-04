@@ -111,7 +111,6 @@ Research these on your own terms; they are references, not automatically adopted
 | [Growth Skills / JaredYin](https://github.com/JaredYin/growth-skills) | Deep specialist workflows for discovery, experiments, retention, monetisation and operating reviews. |
 | [Marketing Skills / coreyhaines31](https://github.com/coreyhaines31/marketingskills) | Practical marketing, conversion and distribution playbooks. |
 | [Humanizer / blader](https://github.com/blader/humanizer) | User-recommended writing skill for clearer, more natural prose: remove formulaic AI phrasing while preserving meaning, factual claims and the writer’s voice. Reference for product copy, SEO content and skill documentation; not yet incorporated into our workflows. |
-
 | [Unslop / heydamir](https://github.com/heydamir/unslop) | User-recommended interface design skill by Damir Sokolovsky: audit generic AI styling, establish a direction from the product, then refine spacing, colour, copy, typography, layout and motion. Reference for web design and design review; not yet incorporated into our workflows. CC BY 4.0; adaptations require attribution. |
 
 ## Possible future skills (not yet added)
