@@ -110,6 +110,7 @@ Research these on your own terms; they are references, not automatically adopted
 | [Startup Founder Skills / shawnpang](https://github.com/shawnpang/startup-founder-skills) | Broad founder responsibilities and shared startup context. |
 | [Growth Skills / JaredYin](https://github.com/JaredYin/growth-skills) | Deep specialist workflows for discovery, experiments, retention, monetisation and operating reviews. |
 | [Marketing Skills / coreyhaines31](https://github.com/coreyhaines31/marketingskills) | Practical marketing, conversion and distribution playbooks. |
+| [Humanizer / blader](https://github.com/blader/humanizer) | User-recommended writing skill for clearer, more natural prose: remove formulaic AI phrasing while preserving meaning, factual claims and the writer’s voice. Reference for product copy, SEO content and skill documentation; not yet incorporated into our workflows. |
 
 ## Possible future skills (not yet added)
 
