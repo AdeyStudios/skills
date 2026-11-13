@@ -43,6 +43,12 @@ These are representative review prompts, not claims that cross-agent evaluation 
 | idea-validation | I can build this idea in a weekend; is that enough reason to start? | Identifies the riskiest demand assumption and a falsifiable low-cost test; separates building ability, clicks, repeated use and willingness to pay. |
 | founder-os (boundary) | Please implement a Stripe webhook handler. | Defers to engineering work instead of turning an implementation request into a company-wide strategy review. |
 
+| video-editing | Make a fast fashion reel from this supplied link; I will add music later. | Uses the actual supplied assets, finds an early visual premise, varies meaningful information and rhythm, reviews real motion, delivers silent and reports actual source/tool provenance. |
+| video-editing | This runway edit drags. Keep the concept and improve pacing only. | Revises selection and event timing before adding effects; checks readable looks and joins without replacing the concept or rebuilding editor automation. |
+| video-editing (boundary) | Summarise the arguments in this lecture video. | Performs video analysis without turning a summary request into a short-form editing job. |
+| video-editing | Find three fashion films and make two different edits from each. | Confirms three actual sources, develops six distinct selections/attention arcs, tracks moving subjects in portrait crops, and separates six final videos from review images. A named effect alone does not distinguish variants. |
+| video-editing | The flow is good, but the three-look burst is unreadable and the concept needs explaining. Move to another collection. | Preserves the learned motion continuity, gives the next image phrase enough reading time, and chooses a visually apparent connection. Does not keep revising the abandoned collection or add explanatory concept labels. |
+
 For changes to boundaries, include an adjacent request that should not trigger the skill. A payments integration implementation, for example, is different from assessing acquisition economics.
 
 Record the agent used, inputs, observed outcome and limitations when reporting a behavioural check. Structural validation alone does not prove the workflow is effective.

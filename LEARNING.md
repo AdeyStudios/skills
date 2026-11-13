@@ -37,6 +37,38 @@ Decision: Adopt, qualify, test, defer or reject, with a brief reason
 
 This format is optional. The purpose is to make the reasoning reviewable, not to add process to every small edit.
 
+## Video editing, 7 November 2026
+
+**Request and decision:** add a reusable editing workflow covering supplied footage/links and search briefs, with particular attention to short-form fashion hooks, pace and creative judgment. Added `video-editing` as a working draft. Personal project preferences and private source paths are not part of the public skill.
+
+**Research:** official TikTok performance-ad guidance, Fashion 2.0, the AUNZ 2026 Fashion & Beauty playbook, TikTok Shop's fashion editing lesson, a historical Loewe campaign account and CapCut's speed-ramp guidance. [Source decisions and limits](skills/video-editing/references/research.md) separate publisher claims, actual timed-frame observations and editorial hypotheses. Downloaded three publicly embedded lesson videos temporarily; inspected timed frames of the two product examples. Did not claim real-time playback or audio listening. No downloaded videos or signed media URLs are bundled.
+
+**Adopted:** an early intelligible premise, meaningful changes rather than cut count, action-based selection, rhythm with contrast, readable garments, exact still/frame provenance, normal-speed review where available and truthful tool credits. Advertising timing advice is conditional; no mandatory text, soundtrack, transition preset, logo opening or universal shot length. A praised treatment does not become a template.
+
+**Checks:** the optional inspection helper ran on authorised vertical runway footage and all three public lesson videos. A synthetic three-colour video test verified exact frame sampling, native-resolution saved frames, known cut locations, the overview cap, original-file preservation, refusal to overwrite and rejection of audio-only input. All nine repository tests passed, including this new behavioural test with its dependencies present; skill frontmatter and six relative links also passed validation.
+
+**Independent forward test:** a separate agent received the skill, an authorised source and a request for a punchy nine-second silent vertical fashion rough. It produced seven selected shots, revised a weak distant ending after temporal inspection, retained exact source intervals and reported its playback limitation. The export has 270 frames, 720×1280, 30 fps, no audio and a clean full decode; the author inspected the report and join sheet and independently decoded the export. This establishes usable selection/provenance/verification behaviour. It does not establish full-speed flow, conceptual originality, competitive editing quality or retention. The result remained a conventional assembly; clarified that when a distinctive concept is requested, a named motif over a shortened compilation is insufficient. That clarification has not yet received a second independent test.
+
+**Reference follow-up:** subsequently retrieved five authorised fashion references with yt-dlp after direct page/CDN attempts failed. Verified each complete file by decoding; inspected timed sheets and, for one reference, consecutive-frame change. Observed mixed moving/still passages, an action-to-closer-image structure, detail/process/outcome relationships and contrasting atmospheric versus dense sections. Added conditional guidance on those decisions, scene-detection false positives from lighting, and trying maintained public-media tooling before requesting uploads. Personal reference choices, raw videos and the detailed source manifest remain in the local project outside this public collection. This was temporal/frame inspection, not full-speed audiovisual review or proof of better edits.
+
+**Remaining evaluation:** compare openings and information/rhythm at real speed on a phone, then assess an actual creative revision. The workflow remains a working draft, with no with/without-skill comparison or measured audience improvement.
+
+**Feedback adopted from an edited short:** the user accepted the revised flow but found its abstract contrast label unclear and the short three-image section too quick to register. Updated the generic workflow to require an image-led connection before naming a concept, and to check dense runs for recognisable subjects rather than treating them as readable coverage merely because each frame renders. This does not prohibit titles, fast accents or purposeful stills, and does not establish a universal minimum shot length. Subsequent work should demonstrate those decisions on different footage; technical checks alone cannot establish that the new pacing is right.
+
+**Applied follow-up:** an 11.4-second edit from a different collection uses no abstract concept slogan and gives its three-look moving phrase 0.6 seconds per look. The author inspected the actual encoded opening, phrase, joins and ending as timed frames, and verified 342 frames, portrait dimensions, colour tags, silence and complete decoding. That demonstrates implementation of the feedback, not user acceptance of the timing or full-speed review. The new export's creative result remains unevaluated by the user.
+
+## Video editing follow-up, 13 November 2026
+
+**Request and decision:** publish the editing skill, references and inspection helper to the shared collection, and retain useful lessons from a six-edit batch the user liked. Kept the skill a working draft; user acceptance is qualitative evidence, not measured performance.
+
+**Applied work:** two edits each from LOEWE Spring/Summer 2025, Issey Miyake Fall 2021 and Maison Margiela Artisanal 2024 changed their selection and attention arcs. Added [production decisions](skills/video-editing/references/production.md) covering distinct variants, live image windows, tracked portrait crops, explicit frame ranges/cadence and deliverable organisation. These are conditional decisions, not six new effect presets. The reference links identify original films; downloaded media, personal paths and private reference collections are excluded.
+
+**Observed corrections:** crop paths restored moving figures; removing an unrelated look clarified a one-garment sequence; trimming an interval removed a missed source change. Final files passed full decoding and frame/duration, portrait dimensions, colour tags and silent-stream checks. Visual inspection used temporal frames and dense joins rather than full-speed phone playback. No causal claim about engagement or an ideal shot length follows.
+
+**Delivery correction:** mixing six JPEG posters with six MP4s made the output count unclear. The generic guidance now separates thumbnails from deliverables and points to existing local files instead of creating unwanted archives.
+
+**Publication checks:** all nine repository tests passed, including the inspection helper's synthetic-media test with its dependencies present. Skill validation, seven local skill links and a scan for personal paths/reference IDs passed. Reviewed the multi-source request against the added decisions; no new independent agent evaluation or retention test was performed.
+
 ## Design skill split, 31 October 2026
 
 **Decision:** the user requested separate web and mobile guidance after preferring a native redesign that went beyond a document-like presentation. Added independently usable `web-design` and `mobile-design`; updated `design-review` as the shared review for mixed or unspecified platforms. Mobile websites/PWAs remain browser work. All three are working drafts.

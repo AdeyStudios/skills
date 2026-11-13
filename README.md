@@ -26,6 +26,8 @@ These are **working drafts**, not proven methodologies. "Placeholder" means ther
 | [improve-onboarding](skills/improve-onboarding/SKILL.md) | Help new users reach the product's first useful outcome with less friction. | Working draft |
 | [growth-economics](skills/growth-economics/SKILL.md) | Assess acquisition, advertising, conversion, retention, CAC and contribution profit together. | Working draft |
 
+| [video-editing](skills/video-editing/SKILL.md) | Find and inspect footage, then create and revise short-form edits with purposeful hooks, rhythm and finishing. | Working draft |
+
 ## The shared method: Research → Execute → Verify
 
 **When creating a skill:** research real problems, trustworthy sources and counterexamples; turn that knowledge into one focused agent workflow; verify the skill on realistic tasks and revise it based on failures.
@@ -70,6 +72,7 @@ $web-design Fix this checkout's small-screen layout and keyboard focus. Keep the
 $mobile-design Rethink this native iOS journey around its main task, including keyboard, motion and failure states.
 $seo-content-research Find content opportunities for this product using the attached Search Console export.
 $growth-economics Assess whether this paid acquisition cohort is profitable. Here are spend, conversion and retention data.
+$video-editing Make a punchy fashion reel from this video link. Deliver silent; I will add music later.
 ```
 
 Skills are generic. Supply project context in the request or keep it in that project's own documentation: audience, useful outcome, positioning, constraints and available evidence. They should not assume any particular Adey Studios product or private account.
