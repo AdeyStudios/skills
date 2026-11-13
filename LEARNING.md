@@ -69,6 +69,16 @@ This format is optional. The purpose is to make the reasoning reviewable, not to
 
 **Publication checks:** all nine repository tests passed, including the inspection helper's synthetic-media test with its dependencies present. Skill validation, seven local skill links and a scan for personal paths/reference IDs passed. Reviewed the multi-source request against the added decisions; no new independent agent evaluation or retention test was performed.
 
+## Video placement feedback, 13 November 2026
+
+**Request:** top-aligned writing looked attractive in the full export but risked disappearing when posted. The user asked for research and a reusable skill correction, not a revision of the existing batch.
+
+**Research:** TikTok's current in-feed and Download Card documentation makes safe areas dependent on captions, formats and device presentation. Meta's publisher-authored Reels ads guide, accessible through an event-hosted PDF, reserves the bottom 35% from important content. Its live help/Ads Guide pages were inaccessible in this review; current full Meta margins and a specific Instagram feed/grid ratio were not independently verified. [Source links and applicability](skills/video-editing/references/placement-safe-areas.md) preserve these limits rather than adopting third-party numbers as current universal specifications.
+
+**Adopted:** distinguish removed picture from interface occlusion; establish viewing surfaces before typography; check complete animated text bounds and important source text, subtitles, subject payoff and end branding. Use actual placement evidence or a clearly labelled conservative house assumption, and check cover/feed crops separately. Decorative imagery can bleed; important copy must remain readable. Added a local preview helper with optional known text bounds and candidate crop stress tests; it does not perform OCR or certify an app layout.
+
+**Checks:** all ten repository tests passed, including the new synthetic edge/centre case: visible crop loss, retained central content, source preservation and overwrite refusal. The helper also ran on an existing encoded edit; its preview showed clipped headline text in candidate crops and flagged both the opening headline and bottom branding. Skill validation and nine local skill links passed. These checks are simulations, not publishing tests or evidence of a retention improvement. Existing videos were preserved.
+
 ## Design skill split, 31 October 2026
 
 **Decision:** the user requested separate web and mobile guidance after preferring a native redesign that went beyond a document-like presentation. Added independently usable `web-design` and `mobile-design`; updated `design-review` as the shared review for mixed or unspecified platforms. Mobile websites/PWAs remain browser work. All three are working drafts.
