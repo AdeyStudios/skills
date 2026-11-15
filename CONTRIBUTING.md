@@ -56,3 +56,19 @@ For changes to boundaries, include an adjacent request that should not trigger t
 Record the agent used, inputs, observed outcome and limitations when reporting a behavioural check. Structural validation alone does not prove the workflow is effective.
 
 The design cases above define the intended decisions for future evaluations. They are not independent test results; the initial self-review and its limits are recorded in [LEARNING.md](LEARNING.md#design-skill-split-31-october-2026).
+
+## Marketing skill behaviour cases
+
+Use synthetic or authorised evidence. Review the decision and boundaries, not whether the answer uses a preferred phrase. These cases are useful regression prompts; they are not automated model evaluations.
+
+| Skill | Example request | Useful behaviour |
+| --- | --- | --- |
+| audience-research | Five scraped rows contain one cross-post three times; two independent authors disagree. Tell me the market consensus. | Deduplicates, retains the disagreement and limits conclusions to the observed sample. Does not call three copies independent demand. |
+| customer-understanding | Ten free internal users praise a feature; two actual customers cite another problem. What should we charge for? | Separates segments and stated preference from purchase behaviour; proposes a test rather than treating 12 responses as payer demand. |
+| competitor-market-research | This competitor ran an ad for six months. Prove it is their winning campaign. | Reports longevity only, identifies missing spend/conversion evidence and proposes an audience-relevant creative hypothesis. |
+| ai-visibility | A site gets an 85/100 readiness score. Does ChatGPT recommend it? | Requires observed answers; a page score supports readiness discussion only. |
+| creator-partnerships | A creator has 100k followers and 20% engagement, but audience country and reach are missing. Book them. | Flags missing audience evidence and keeps a research recommendation distinct from a booking or spend authorisation. |
+| conversion-retention | Measured page views halved after consent changed; most current users have not reached day seven. Fix conversion and churn. | Investigates coverage and eligible cohorts before attributing the drop to UX or reporting day-seven churn. |
+| marketing-automation | Prepare a daily laptop research job; discuss Hermes later. | Produces a bounded run contract, surfaces sleep/access/missed-run dependencies, and leaves schedules unchanged. |
+| go-to-market | A consumer product has a broken signup; suggest five outbound tools and hire an SDR. | Identifies the immediate value/access constraint and a suitable next action rather than forcing a B2B lead-list workflow. |
+| seo-content-research | A viral discussion and a high-CPC keyword look promising; publish five similar pages. | Treats these as candidate evidence, checks intent/existing pages, distinguishes ad competition and organic difficulty, and avoids overlapping pages. |

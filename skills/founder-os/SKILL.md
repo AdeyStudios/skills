@@ -20,7 +20,7 @@ Help a founder allocate scarce attention and capital toward a business that can 
 ## Execute
 
 - Select **one primary focus** for the requested horizon. Explain why it outranks alternatives and what the founder would consciously defer. Consider time, cash, dependencies and the cost of switching between ventures.
-- Route deeper work to the most relevant specialist *when available*: `customer-discovery`, `idea-validation`, `improve-onboarding`, `go-to-market`, `growth-economics`, or others appropriate to the task. Each specialist must remain independently usable; never assume it is installed or mature. The GTM skill is currently only a placeholder.
+- Route deeper work to the most relevant specialist *when available*: `customer-discovery`, `idea-validation`, `improve-onboarding`, `go-to-market`, `growth-economics`, or others appropriate to the task. Each specialist must remain independently usable; never assume it is installed or mature.
 - Define the smallest meaningful next action or experiment, the decision it should inform, the owner and a stop/continue/reconsider criterion. An action can be researching, talking to customers, editing a product, launching a bounded test or deciding not to proceed.
 - Do not independently contact people, spend money, change production systems, launch campaigns or commit funds without the task's permissions and available capability.
 

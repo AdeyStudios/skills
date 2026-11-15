@@ -1,6 +1,6 @@
 ---
 name: customer-discovery
-description: Plan and analyse evidence-led customer discovery to learn who has a problem, what alternatives they use and what drives real behaviour. Use for interviews, surveys, reviews and customer insights; not for general marketing copy or speculative personas.
+description: Plan and conduct evidence-led customer discovery to decide what to ask or observe about a problem, alternatives and real behaviour. Use for interview, survey and observation design; existing-evidence synthesis is customer understanding.
 license: MIT
 ---
 
@@ -9,6 +9,8 @@ license: MIT
 > Early working draft. Add sourced examples, failure cases and behavioural evaluations before relying on this as a finished method.
 
 Discover the customer's actual problem and choices, rather than collecting compliments about a solution.
+
+For interpreting a supplied body of customer records without commissioning new research, a customer-understanding workflow can help when available. This skill remains independently usable.
 
 ## Research
 
