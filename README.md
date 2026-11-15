@@ -17,7 +17,14 @@ These are **working drafts**, not proven methodologies. "Placeholder" means ther
 | [founder-os](skills/founder-os/SKILL.md) | Decide what to focus on across one or more ventures and route the next task to the right specialist. | Working draft |
 | [customer-discovery](skills/customer-discovery/SKILL.md) | Learn about real customers' problems, alternatives and behaviours from interviews, surveys, reviews and observation. | Working draft |
 | [idea-validation](skills/idea-validation/SKILL.md) | Pressure-test a new venture or product idea with the smallest decision-changing experiment. | Working draft |
-| [go-to-market](skills/go-to-market/SKILL.md) | Future work on positioning, channels and reaching the right customers. | Placeholder |
+| [go-to-market](skills/go-to-market/SKILL.md) | Choose the next audience, promise, channel and bounded experiment, coordinating relevant specialist work. | Working draft |
+| [audience-research](skills/audience-research/SKILL.md) | Study public conversations, needs, language, objections and emerging discussions. | Working draft |
+| [customer-understanding](skills/customer-understanding/SKILL.md) | Interpret existing customer records into evidence-backed needs, segments and decisions. | Working draft |
+| [competitor-market-research](skills/competitor-market-research/SKILL.md) | Compare competitors' positioning, offers, pricing, ads and distribution. | Working draft |
+| [ai-visibility](skills/ai-visibility/SKILL.md) | Distinguish actual AI-answer mentions/citations from content-readiness hypotheses. | Working draft |
+| [creator-partnerships](skills/creator-partnerships/SKILL.md) | Research partner fit, prepare briefs and define a measurable campaign hypothesis. | Working draft |
+| [conversion-retention](skills/conversion-retention/SKILL.md) | Diagnose listing/landing conversion, activation, payment and useful repeat use. | Working draft |
+| [marketing-automation](skills/marketing-automation/SKILL.md) | Design bounded recurring jobs with runner-specific access, state, recovery and verification. | Working draft |
 | [seo-content-research](skills/seo-content-research/SKILL.md) | Choose useful content opportunities using search intent, existing answers and product fit. | Working draft |
 | [seo-review](skills/seo-review/SKILL.md) | Diagnose discoverability and indexing problems with evidence and prioritised fixes. | Working draft |
 | [design-review](skills/design-review/SKILL.md) | Diagnose shared design issues when the platform is mixed or unspecified; choose the depth of the review. | Working draft |
@@ -70,6 +77,12 @@ After installation, invoke a skill using your agent's supported syntax. For exam
 $design-review Review this checkout on mobile. Preserve the existing brand.
 $web-design Fix this checkout's small-screen layout and keyboard focus. Keep the existing brand.
 $mobile-design Rethink this native iOS journey around its main task, including keyboard, motion and failure states.
+$audience-research Study recent public discussions about this problem; distinguish opinions from demand.
+$customer-understanding Interpret these anonymised interviews and survey responses by customer segment.
+$competitor-market-research Compare these products' promises, offers and visible acquisition channels.
+$go-to-market Choose one acquisition or activation experiment from the evidence in this project.
+$conversion-retention Diagnose where these visitors stop receiving value; check the measurement first.
+$marketing-automation Draft a weekly research job with state and failure handling. Do not enable it yet.
 $seo-content-research Find content opportunities for this product using the attached Search Console export.
 $growth-economics Assess whether this paid acquisition cohort is profitable. Here are spend, conversion and retention data.
 $video-editing Make a punchy fashion reel from this video link. Deliver silent; I will add music later.
@@ -78,6 +91,16 @@ $video-editing Make a punchy fashion reel from this video link. Deliver silent; 
 Skills are generic. Supply project context in the request or keep it in that project's own documentation: audience, useful outcome, positioning, constraints and available evidence. They should not assume any particular Adey Studios product or private account.
 
 For design, choose by runtime: **web-design** includes mobile websites and PWAs; **mobile-design** covers native apps, including native cross-platform frameworks. **design-review** remains a standalone shared review for mixed or unspecified contexts. You do not need to run all three or install an external design collection.
+
+## Marketing skills as a connected workflow
+
+Use `audience-research` for public conversations and `customer-understanding` for interpreting customer evidence. `customer-discovery` helps plan what to ask or observe next. The SEO skills remain separate: technical discovery problems, content opportunity selection and competitor search teardown are different tasks. `competitor-market-research` covers the broader offer/channel picture.
+
+`go-to-market` chooses proportionate work from these capabilities using the business's own context. It does not run every skill or require other skills to be installed. `conversion-retention` covers useful next actions and repeated value, including a conditional store-listing review. `ai-visibility` and `creator-partnerships` are available for future briefs; installing them does not start research or campaigns.
+
+`marketing-automation` supplies a portable run contract for a scheduler or agent runner. It does not configure Hermes, inherit another agent's connectors or enable schedules. Runner setup and project-specific jobs are a separate decision.
+
+Sources, what was adapted and what remains inspiration are recorded in [GTM inspiration](GTM-INSPIRATION.md). These additions are working drafts; packaging checks and author case reviews do not establish growth impact.
 
 ## Improve them as we learn
 
@@ -112,7 +135,13 @@ Research these on your own terms; they are references, not automatically adopted
 | [Startup Skills / samuelcastro](https://github.com/samuelcastro/startup-skills) | Founder playbook, stage-dependent decisions and routing to specialist skills. |
 | [Startup Founder Skills / shawnpang](https://github.com/shawnpang/startup-founder-skills) | Broad founder responsibilities and shared startup context. |
 | [Growth Skills / JaredYin](https://github.com/JaredYin/growth-skills) | Deep specialist workflows for discovery, experiments, retention, monetisation and operating reviews. |
-| [Marketing Skills / coreyhaines31](https://github.com/coreyhaines31/marketingskills) | Practical marketing, conversion and distribution playbooks. |
+| [Marketing Skills / coreyhaines31](https://github.com/coreyhaines31/marketingskills) | Research, positioning, conversion, store listings and recurring jobs; selective original synthesis documented in [GTM inspiration](GTM-INSPIRATION.md). |
+| [last30days / mvanhorn](https://github.com/mvanhorn/last30days-skill) | Recent public audience research across communities and social/video sources; informs audience-research without requiring its runtime. |
+| [Claude SEO / AgriciDaniel](https://github.com/AgriciDaniel/claude-seo) | Technical/content audit coverage and research evidence; informs the existing SEO drafts. |
+| [GEO SEO Claude / zubair-trabzada](https://github.com/zubair-trabzada/geo-seo-claude) | AI-answer visibility, citation readiness and crawler investigation; separate observed answers from heuristic scores. |
+| [PM Skills / phuryn](https://github.com/phuryn/pm-skills) | Competitive battlecards, product decisions and connected workflows; retained as inspiration, not wholesale imported frameworks. |
+| [GTM Skills / swan-gtm](https://github.com/swan-gtm/gtm-skills) | Portable account research and GTM judgment; an optional execution layer is distinct from the method. |
+| [Treg / superdesigndev](https://github.com/superdesigndev/treg) | Tool discovery, lead-signals and make-ugc references plus the [GTM engineering playbook](https://treg.to/gtm-engineering); data tools are optional, priced dependencies, not part of our generic skill instructions. |
 | [Humanizer / blader](https://github.com/blader/humanizer) | User-recommended writing skill for clearer, more natural prose: remove formulaic AI phrasing while preserving meaning, factual claims and the writer’s voice. Reference for product copy, SEO content and skill documentation; not yet incorporated into our workflows. |
 | [Unslop / heydamir](https://github.com/heydamir/unslop) | User-recommended interface design skill by Damir Sokolovsky: audit generic AI styling, establish a direction from the product, then refine spacing, colour, copy, typography, layout and motion. Reference for web design and design review; not yet incorporated into our workflows. CC BY 4.0; adaptations require attribution. |
 
